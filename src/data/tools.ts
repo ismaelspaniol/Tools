@@ -37,12 +37,6 @@ export const tools: ToolEntry[] = [
     description: 'Verifica se um DNS foi propagado em resolvedores públicos.',
   },
   {
-    href: '/ferramentas/cripto-wallet-scanner',
-    label: 'Cripto wallet scanner',
-    shortLabel: 'Wallet',
-    description: 'Rastreia holdings de uma carteira Ethereum, Base e Arbitrum.',
-  },
-  {
     href: '/ferramentas/formatador-json',
     label: 'Formatador JSON',
     shortLabel: 'JSON',

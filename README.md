@@ -38,7 +38,9 @@ docker compose -f docker-compose.dev.yml up
 ## Variáveis de ambiente
 
 - `SITE_URL`: URL pública usada na geração do `sitemap.xml`
-- `VITE_COVALENT_API_KEY`: chave da API usada para rastrear holdings da carteira
+- `VITE_ETHEREUM_RPC_URL`: endpoint RPC opcional para Ethereum
+- `VITE_BASE_RPC_URL`: endpoint RPC opcional para Base
+- `VITE_ARBITRUM_RPC_URL`: endpoint RPC opcional para Arbitrum
 
 ## Deploy no Dockploy
 
