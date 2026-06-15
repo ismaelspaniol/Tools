@@ -5,10 +5,11 @@ const siteUrl = process.env.SITE_URL ?? 'http://localhost:4173';
 const routes = [
   '/',
   '/ferramentas/qual-meu-ip',
-  '/ferramentas/base64-para-imagem',
-  '/ferramentas/imagem-para-base64',
+  '/ferramentas/image-base64',
   '/ferramentas/cpf',
   '/ferramentas/cnpj',
+  '/ferramentas/dns-propagacao',
+  '/ferramentas/cripto-wallet-scanner',
   '/ferramentas/formatador-json',
   '/ferramentas/decodificador-jwt',
 ];

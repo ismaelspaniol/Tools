@@ -5,10 +5,11 @@ Coleção de ferramentas web leves em React + TypeScript + TailwindCSS.
 ## Ferramentas
 
 - Qual meu IP
-- Base64 para imagem
-- Imagem para Base64
+- image/base64
 - CPF
 - CNPJ
+- Verificador de propagação DNS
+- Cripto wallet scanner
 - Formatador JSON
 - Decodificador JWT
 
@@ -37,6 +38,7 @@ docker compose -f docker-compose.dev.yml up
 ## Variáveis de ambiente
 
 - `SITE_URL`: URL pública usada na geração do `sitemap.xml`
+- `VITE_COVALENT_API_KEY`: chave da API usada para rastrear holdings da carteira
 
 ## Deploy no Dockploy
 
@@ -52,9 +54,10 @@ Essa variável precisa estar disponível no build, porque o `sitemap.xml` e o `r
 
 - `/`
 - `/ferramentas/qual-meu-ip`
-- `/ferramentas/base64-para-imagem`
-- `/ferramentas/imagem-para-base64`
+- `/ferramentas/image-base64`
 - `/ferramentas/cpf`
 - `/ferramentas/cnpj`
+- `/ferramentas/dns-propagacao`
+- `/ferramentas/cripto-wallet-scanner`
 - `/ferramentas/formatador-json`
 - `/ferramentas/decodificador-jwt`

@@ -13,16 +13,10 @@ export const tools: ToolEntry[] = [
     description: 'Consulta pública do endereço IP usando a API do ipify.',
   },
   {
-    href: '/ferramentas/base64-para-imagem',
-    label: 'Base64 para imagem',
-    shortLabel: 'Base64',
-    description: 'Converte uma string Base64 em imagem renderizada e baixável.',
-  },
-  {
-    href: '/ferramentas/imagem-para-base64',
-    label: 'Imagem para Base64',
-    shortLabel: 'Imagem',
-    description: 'Transforma uma imagem local em Base64 pronto para copiar.',
+    href: '/ferramentas/image-base64',
+    label: 'image/base64',
+    shortLabel: 'image/base64',
+    description: 'Converte imagem em Base64 e Base64 em imagem na mesma página.',
   },
   {
     href: '/ferramentas/cpf',
@@ -35,6 +29,18 @@ export const tools: ToolEntry[] = [
     label: 'CNPJ',
     shortLabel: 'CNPJ',
     description: 'Gera e valida CNPJ na mesma página, com padrão alfanumérico.',
+  },
+  {
+    href: '/ferramentas/dns-propagacao',
+    label: 'DNS',
+    shortLabel: 'DNS',
+    description: 'Verifica se um DNS foi propagado em resolvedores públicos.',
+  },
+  {
+    href: '/ferramentas/cripto-wallet-scanner',
+    label: 'Cripto wallet scanner',
+    shortLabel: 'Wallet',
+    description: 'Rastreia holdings de uma carteira Ethereum, Base e Arbitrum.',
   },
   {
     href: '/ferramentas/formatador-json',

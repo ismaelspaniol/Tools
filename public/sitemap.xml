@@ -2,10 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>http://localhost:4173/</loc></url>
   <url><loc>http://localhost:4173/ferramentas/qual-meu-ip</loc></url>
-  <url><loc>http://localhost:4173/ferramentas/base64-para-imagem</loc></url>
-  <url><loc>http://localhost:4173/ferramentas/imagem-para-base64</loc></url>
+  <url><loc>http://localhost:4173/ferramentas/image-base64</loc></url>
   <url><loc>http://localhost:4173/ferramentas/cpf</loc></url>
   <url><loc>http://localhost:4173/ferramentas/cnpj</loc></url>
+  <url><loc>http://localhost:4173/ferramentas/dns-propagacao</loc></url>
+  <url><loc>http://localhost:4173/ferramentas/cripto-wallet-scanner</loc></url>
   <url><loc>http://localhost:4173/ferramentas/formatador-json</loc></url>
   <url><loc>http://localhost:4173/ferramentas/decodificador-jwt</loc></url>
 </urlset>

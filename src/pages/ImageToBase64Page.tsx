@@ -1,5 +1,5 @@
-import { ImageToBase64Tool } from '@/tools/base64/ImageToBase64Tool';
+import { ImageBase64Tool } from '@/tools/base64/ImageBase64Tool';
 
 export function ImageToBase64Page() {
-  return <ImageToBase64Tool />;
+  return <ImageBase64Tool />;
 }
