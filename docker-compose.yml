@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      args:
+        SITE_URL: ${SITE_URL:-http://localhost:4173}
+    ports:
+      - '4173:80'
+    restart: unless-stopped
