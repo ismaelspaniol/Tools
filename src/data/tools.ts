@@ -9,7 +9,7 @@ export const tools: ToolEntry[] = [
   {
     href: "/ferramentas/qual-meu-ip",
     label: "Qual meu IP?",
-    shortLabel: "IP Externo",
+    shortLabel: "IP Externooo",
     description: "Consulta pública do endereço IP usando a API do ipify.",
   },
   {
